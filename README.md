@@ -1,26 +1,26 @@
-# 밴포스시스템 pos-system
+# 밴포스시스템
 
 GitHub Pages용 매장 결제장비 안내 사이트입니다.
 
 ## 대표 카테고리
 
-- 홈: `/pos-system/`
-- 장비별: `/pos-system/equipment/`
-  - 카드단말기: `/pos-system/equipment/card-terminal/`
-  - 포스기: `/pos-system/equipment/pos/`
-  - 키오스크: `/pos-system/equipment/kiosk/`
-  - 테이블오더: `/pos-system/equipment/table-order/`
-- 업종별: `/pos-system/business/`
-  - 음식점: `/pos-system/business/restaurant/`
-  - 카페: `/pos-system/business/cafe/`
-  - 주점·호프: `/pos-system/business/pub/`
-  - 신규 창업 매장: `/pos-system/business/startup/`
-- 지역별: `/pos-system/region/`
-  - 서울: `/pos-system/region/seoul/`
-  - 경기: `/pos-system/region/gyeonggi/`
-  - 인천: `/pos-system/region/incheon/`
-- 문의하기: `/pos-system/#contact`
-- 장비 비교 가이드: `/pos-system/guide/`
+- 홈: `/`
+- 장비별: `/equipment/`
+  - 카드단말기: `/equipment/card-terminal/`
+  - 포스기: `/equipment/pos/`
+  - 키오스크: `/equipment/kiosk/`
+  - 테이블오더: `/equipment/table-order/`
+- 업종별: `/business/`
+  - 음식점: `/business/restaurant/`
+  - 카페: `/business/cafe/`
+  - 주점·호프: `/business/pub/`
+  - 신규 창업 매장: `/business/startup/`
+- 지역별: `/region/`
+  - 서울: `/region/seoul/`
+  - 경기: `/region/gyeonggi/`
+  - 인천: `/region/incheon/`
+- 문의하기: `/#contact`
+- 장비 비교 가이드: `/guide/`
 
 ## 이번 수정 내용
 
@@ -31,7 +31,7 @@ GitHub Pages용 매장 결제장비 안내 사이트입니다.
 
 ## 업로드 주의
 
-기존 `pos-system` 내부 파일을 삭제한 뒤 이 폴더의 내용만 업로드하는 것을 권장합니다. 기존 URL이 남아 있으면 새 구조와 함께 중복으로 노출될 수 있습니다.
+독립도메인 루트 저장소에 이 폴더의 내용물을 업로드하는 것을 권장합니다. 기존 URL이 남아 있으면 새 구조와 함께 중복으로 노출될 수 있습니다.
 
 ## 운영 전 교체 필요
 

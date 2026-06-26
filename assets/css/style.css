@@ -284,3 +284,69 @@ details p{margin-top:10px;font-size:15px}
 .region-search-empty{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:18px;padding:16px 18px;font-weight:800}
 .local-region-search{margin-top:20px}
 @media (max-width:720px){.region-search-panel{padding:20px;border-radius:22px}.region-search-control{grid-template-columns:1fr}.region-search-meta{text-align:left}.region-search-input{font-size:15px;padding:15px 16px}}
+
+/* 2026-06 usability fixes: concise region buttons, readable checklist, centered long button text */
+.link-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  min-height:62px;
+  line-height:1.45;
+  word-break:keep-all;
+  overflow-wrap:break-word;
+}
+.region-detail-grid .link-card{
+  padding:16px 18px;
+  font-size:16px;
+  letter-spacing:-.025em;
+}
+.region-search-list .link-card{
+  text-align:center;
+}
+.panel .check-list, .check-list{
+  display:grid;
+  gap:10px;
+  margin:18px 0 0;
+  padding:0;
+  list-style:none;
+  counter-reset:none;
+}
+.panel .check-list li, .check-list li{
+  display:block;
+  grid-template-columns:none;
+  position:relative;
+  min-height:0;
+  padding:14px 16px 14px 36px;
+  border-radius:16px;
+  background:#f8fbff;
+  border:1px solid #e8eef9;
+  color:#42516b;
+  font-weight:800;
+  line-height:1.65;
+  text-align:left;
+  word-break:keep-all;
+  overflow-wrap:break-word;
+}
+.panel .check-list li::before, .check-list li::before{
+  content:"";
+  position:absolute;
+  left:16px;
+  top:1.35em;
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--blue),var(--purple));
+  box-shadow:none;
+  display:block;
+}
+.card h3,.panel h2,.local-cta strong,.region-search-panel h2{
+  word-break:keep-all;
+  overflow-wrap:break-word;
+  text-wrap:balance;
+}
+@media (max-width:720px){
+  .region-detail-grid .link-card{min-height:56px;padding:15px 16px}
+  .panel .check-list li, .check-list li{padding:13px 14px 13px 34px}
+  .panel .check-list li::before, .check-list li::before{left:14px}
+}

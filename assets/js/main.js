@@ -1,5 +1,5 @@
 const PHONE_NUMBER = '88888888';
-const NAVER_FORM_URL = 'nnnnnnnn';
+const NAVER_FORM_URL = 'https://naver.me/G1p4zneg';
 const MOBILE_NAV_QUERY = '(max-width: 860px)';
 
 function callNow() {
@@ -12,8 +12,8 @@ function callNow() {
 }
 
 function openNaverForm() {
-  if (!NAVER_FORM_URL || NAVER_FORM_URL === 'nnnnnnnn') {
-    alert('네이버폼 주소를 실제 URL로 교체해 주세요.');
+  if (!NAVER_FORM_URL) {
+    alert('상담예약 링크를 확인해 주세요.');
     return;
   }
   const newWindow = window.open(NAVER_FORM_URL, '_blank', 'noopener,noreferrer');

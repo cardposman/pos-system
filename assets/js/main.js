@@ -83,11 +83,30 @@ function normalizeRegionKeyword(value) {
 
 function setupRegionSearch() {
   document.querySelectorAll('[data-region-search-scope]').forEach((scope) => {
+    const searchArea = scope.closest('section') || scope.parentElement || document;
     const input = scope.querySelector('[data-region-search-input]');
-    const items = Array.from(scope.querySelectorAll('[data-region-search-item]'));
-    const count = scope.querySelector('[data-region-search-count]');
-    const empty = scope.querySelector('[data-region-search-empty]');
+    const list = scope.querySelector('[data-region-search-list]') || searchArea.querySelector('[data-region-search-list]');
+    const items = list ? Array.from(list.querySelectorAll('[data-region-search-item]')) : [];
+    const meta = scope.querySelector('.region-search-meta');
+    let count = scope.querySelector('[data-region-search-count]');
+    const empty = scope.querySelector('[data-region-search-empty]') || searchArea.querySelector('[data-region-search-empty]');
     if (!input || !items.length) return;
+
+    const totalCount = items.length;
+    if (meta) {
+      meta.innerHTML = `검색결과 <strong data-region-search-count>0</strong> / 전체 ${totalCount}개`;
+      count = meta.querySelector('[data-region-search-count]');
+    }
+
+    const showEmptyMessage = (message) => {
+      if (!empty) return;
+      empty.textContent = message;
+      empty.hidden = false;
+    };
+
+    const hideEmptyMessage = () => {
+      if (empty) empty.hidden = true;
+    };
 
     const update = () => {
       const keyword = normalizeRegionKeyword(input.value);
@@ -95,13 +114,20 @@ function setupRegionSearch() {
 
       items.forEach((item) => {
         const targetText = normalizeRegionKeyword(item.getAttribute('data-region-search-text') || item.textContent);
-        const isVisible = !keyword || targetText.includes(keyword);
+        const isVisible = Boolean(keyword) && targetText.includes(keyword);
         item.classList.toggle('is-hidden', !isVisible);
         if (isVisible) visibleCount += 1;
       });
 
       if (count) count.textContent = String(visibleCount);
-      if (empty) empty.hidden = visibleCount !== 0;
+
+      if (!keyword) {
+        showEmptyMessage('지역명을 입력하면 해당하는 하위지역만 표시됩니다.');
+      } else if (visibleCount === 0) {
+        showEmptyMessage('검색 결과가 없습니다. 지역명을 줄여서 다시 입력해보세요.');
+      } else {
+        hideEmptyMessage();
+      }
     };
 
     input.addEventListener('input', update);

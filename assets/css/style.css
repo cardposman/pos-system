@@ -350,3 +350,12 @@ details p{margin-top:10px;font-size:15px}
   .panel .check-list li, .check-list li{padding:13px 14px 13px 34px}
   .panel .check-list li::before, .check-list li::before{left:14px}
 }
+
+
+/* Longform image content pages */
+.compact-hero{padding:54px 0 42px}
+.longform-wrap{max-width:980px}
+.longform-viewer{display:grid;gap:28px;margin-top:28px;justify-items:center}
+.longform-page-image{width:min(100%,520px);margin:0;background:#fff;border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:0 18px 48px rgba(16,34,70,.12)}
+.longform-page-image img{display:block;width:100%;height:auto;background:#fff}
+@media (max-width:620px){.compact-hero{padding:38px 0 28px}.longform-viewer{gap:18px}.longform-page-image{border-radius:18px}}

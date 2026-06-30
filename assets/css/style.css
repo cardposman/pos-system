@@ -359,3 +359,71 @@ details p{margin-top:10px;font-size:15px}
 .longform-page-image{width:min(100%,520px);margin:0;background:#fff;border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:0 18px 48px rgba(16,34,70,.12)}
 .longform-page-image img{display:block;width:100%;height:auto;background:#fff}
 @media (max-width:620px){.compact-hero{padding:38px 0 28px}.longform-viewer{gap:18px}.longform-page-image{border-radius:18px}}
+
+
+/* PC readability refinements: compact hero card, safer checklist styles */
+@media (min-width:1024px){
+  .hero-grid > .hero-card{
+    width:100%;
+    max-width:460px;
+    justify-self:end;
+    padding:28px 30px;
+    border-radius:28px;
+    text-align:center;
+  }
+  .hero-grid > .hero-card h2{
+    margin-bottom:16px;
+    text-align:center;
+  }
+  .hero-grid > .hero-card .hero-list{
+    width:min(100%,360px);
+    margin:0 auto;
+  }
+  .hero-grid > .hero-card .hero-list li{
+    padding:12px 14px;
+    text-align:left;
+    align-items:center;
+  }
+  .hero-grid > .hero-card .hero-list li::before{
+    margin-top:0;
+  }
+}
+.checklist-panel .check-list{
+  display:grid;
+  gap:10px;
+  margin:0;
+  padding:0;
+  list-style:none;
+  counter-reset:check-counter;
+}
+.checklist-panel .check-list li{
+  counter-increment:check-counter;
+  display:grid;
+  grid-template-columns:42px 1fr;
+  gap:12px;
+  align-items:start;
+  padding:15px;
+  border-radius:18px;
+  background:#f8fbff;
+  border:1px solid #e8eef9;
+  color:#42516b;
+  line-height:1.65;
+  font-weight:800;
+}
+.checklist-panel .check-list li::before{
+  content:counter(check-counter);
+  position:static;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:linear-gradient(135deg,var(--blue),var(--purple));
+  color:#fff;
+  font-weight:900;
+  box-shadow:0 10px 20px rgba(37,99,235,.2);
+}
+@media (max-width:720px){
+  .checklist-panel .check-list li{grid-template-columns:36px 1fr;padding:13px}
+  .checklist-panel .check-list li::before{width:32px;height:32px}
+}

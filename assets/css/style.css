@@ -360,6 +360,13 @@ details p{margin-top:10px;font-size:15px}
 .longform-page-image img{display:block;width:100%;height:auto;background:#fff}
 @media (max-width:620px){.compact-hero{padding:38px 0 28px}.longform-viewer{gap:18px}.longform-page-image{border-radius:18px}}
 
+/* Table order long guide images on the main product page */
+.table-order-info-preview{display:grid;gap:16px;margin-top:22px;max-width:560px}
+.table-order-info-image{margin:0;background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 14px 34px rgba(16,34,70,.1)}
+.table-order-info-image img{display:block;width:100%;height:auto;background:#fff}
+@media (max-width:860px){.table-order-info-preview{max-width:640px}}
+@media (max-width:520px){.table-order-info-preview{gap:12px;margin-top:18px}.table-order-info-image{border-radius:16px}}
+
 /* Contact card visual refinement: PC/tablet only */
 @media (min-width:700px){
   .v2-contact-card{

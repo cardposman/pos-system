@@ -1,4 +1,4 @@
-const PHONE_NUMBER = '88888888';
+const PHONE_NUMBER = '01082681128';
 const NAVER_FORM_URL = 'https://naver.me/G1p4zneg';
 const MOBILE_NAV_QUERY = '(max-width: 860px)';
 

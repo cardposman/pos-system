@@ -112,10 +112,13 @@ details p{margin-top:10px;font-size:15px}
 .device-photo-card img{width:100%;height:270px;object-fit:contain;padding:10px;background:#f8fbff}
 .device-photo-card figcaption{padding:10px 12px;border-top:1px solid var(--line);font-size:13px;font-weight:900;color:#33415d;background:#fff;letter-spacing:-.025em}
 .device-photo-note{margin:12px 2px 0;color:#65728a;font-size:13px;line-height:1.6}
+.dong-install-grid{grid-template-columns:1fr;gap:16px}
+.dong-install-grid .device-photo-card img{height:420px}
 @media (max-width:860px){
   .device-hero-photos{padding:14px;border-radius:20px}
   .device-photo-card img{height:230px;padding:8px}
   .device-photo-heading{align-items:center}
+  .dong-install-grid .device-photo-card img{height:320px}
 }
 @media (max-width:520px){
   .device-photo-grid{gap:8px}
@@ -125,6 +128,7 @@ details p{margin-top:10px;font-size:15px}
   .device-photo-heading{display:block}
   .device-photo-heading strong{display:block;margin-top:8px;font-size:18px}
   .device-photo-note{font-size:12px}
+  .dong-install-grid .device-photo-card img{height:240px}
 }
 
 /* 메인 랜딩페이지 리디자인 */

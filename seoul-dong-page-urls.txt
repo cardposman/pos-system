@@ -47,7 +47,7 @@ https://tsposys.com/region/seoul/gangdong-gu/myeongildong/
 https://tsposys.com/region/seoul/gangdong-gu/sangildong/
 https://tsposys.com/region/seoul/gangdong-gu/seongnaedong/
 https://tsposys.com/region/seoul/gangnam-gu/apgujeongdong/
-https://tsposys.com/region/seoul/gangnam-gu/cheongdamdong/
+https://tsposys.com/region/seoul/gangnam-gu/cheongdamdong/@@@
 https://tsposys.com/region/seoul/gangnam-gu/daechidong/
 https://tsposys.com/region/seoul/gangnam-gu/dogokdong/
 https://tsposys.com/region/seoul/gangnam-gu/gaepodong/
@@ -97,7 +97,7 @@ https://tsposys.com/region/seoul/gwanak-gu/samseongdong/
 https://tsposys.com/region/seoul/gwanak-gu/seonghyeondong/
 https://tsposys.com/region/seoul/gwanak-gu/seorimdong/
 https://tsposys.com/region/seoul/gwanak-gu/seowondong/
-https://tsposys.com/region/seoul/gwanak-gu/sinrimdong/
+https://tsposys.com/region/seoul/gwanak-gu/sinrimdong/@@@
 https://tsposys.com/region/seoul/gwanak-gu/sinsadong/
 https://tsposys.com/region/seoul/gwanak-gu/sinwondong/
 https://tsposys.com/region/seoul/gwangjin-gu/gunjadong/

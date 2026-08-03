@@ -147,7 +147,7 @@ https://tsposys.com/region/seoul/mapo-gu/ahyeondong/
 https://tsposys.com/region/seoul/mapo-gu/daeheungdong/
 https://tsposys.com/region/seoul/mapo-gu/dohwadong/
 https://tsposys.com/region/seoul/mapo-gu/gongdeokdong/
-https://tsposys.com/region/seoul/mapo-gu/hapjeongdong/
+https://tsposys.com/region/seoul/mapo-gu/hapjeongdong/@@@
 https://tsposys.com/region/seoul/mapo-gu/mangwondong/
 https://tsposys.com/region/seoul/mapo-gu/sangamdong/
 https://tsposys.com/region/seoul/mapo-gu/seogangdong/

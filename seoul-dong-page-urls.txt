@@ -197,7 +197,7 @@ https://tsposys.com/region/seoul/seongdong-gu/geumho1gadong/
 https://tsposys.com/region/seoul/seongdong-gu/geumho2-3gadong/
 https://tsposys.com/region/seoul/seongdong-gu/geumho4gadong/
 https://tsposys.com/region/seoul/seongdong-gu/haengdangdong/
-https://tsposys.com/region/seoul/seongdong-gu/majangdong/
+https://tsposys.com/region/seoul/seongdong-gu/majangdong/@@@
 https://tsposys.com/region/seoul/seongdong-gu/oksudong/
 https://tsposys.com/region/seoul/seongdong-gu/sageundong/
 https://tsposys.com/region/seoul/seongdong-gu/seongsu1gadong/

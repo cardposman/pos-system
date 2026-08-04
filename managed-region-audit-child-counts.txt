@@ -1,0 +1,180 @@
+daejeon	대덕구	expected=11	actual=22	/region/daejeon/daedeok-gu/
+daejeon	동구	expected=14	actual=28	/region/daejeon/dong-gu/
+daejeon	서구	expected=17	actual=32	/region/daejeon/seo-gu/
+daejeon	유성구	expected=10	actual=20	/region/daejeon/yuseong-gu/
+daejeon	중구	expected=14	actual=28	/region/daejeon/jung-gu/
+chungbuk	청주시 상당구	expected=12	actual=24	/region/chungbuk/cheongju-sangdang-gu/
+chungbuk	청주시 서원구	expected=9	actual=18	/region/chungbuk/cheongju-seowon-gu/
+chungbuk	청주시 흥덕구	expected=9	actual=18	/region/chungbuk/cheongju-heungdeok-gu/
+chungbuk	청주시 청원구	expected=7	actual=14	/region/chungbuk/cheongju-cheongwon-gu/
+chungbuk	증평군	expected=2	actual=4	/region/chungbuk/jeungpyeong/
+chungbuk	진천군	expected=7	actual=14	/region/chungbuk/jincheon/
+chungnam	천안시 동남구	expected=16	actual=32	/region/chungnam/cheonan-dongnam-gu/
+chungnam	천안시 서북구	expected=9	actual=18	/region/chungnam/cheonan-seobuk-gu/
+chungnam	공주시	expected=16	actual=32	/region/chungnam/gongju/
+chungnam	금산군	expected=10	actual=20	/region/chungnam/geumsan/
+chungnam	논산시	expected=15	actual=30	/region/chungnam/nonsan/
+chungnam	보령시	expected=12	actual=24	/region/chungnam/boryeong/
+chungnam	부여군	expected=16	actual=32	/region/chungnam/buyeo/
+chungnam	서천군	expected=13	actual=26	/region/chungnam/seocheon/
+chungnam	아산시	expected=12	actual=24	/region/chungnam/asan/
+chungnam	예산군	expected=12	actual=24	/region/chungnam/yesan/
+chungnam	청양군	expected=10	actual=20	/region/chungnam/cheongyang/
+chungnam	홍성군	expected=11	actual=22	/region/chungnam/hongseong/
+jeonbuk	전주시 덕진구	expected=11	actual=22	/region/jeonbuk/jeonju-deokjin-gu/
+jeonbuk	전주시 완산구	expected=11	actual=22	/region/jeonbuk/jeonju-wansan-gu/
+jeonbuk	군산시	expected=25	actual=50	/region/jeonbuk/gunsan/
+jeonbuk	완주군	expected=13	actual=26	/region/jeonbuk/wanju/
+jeonbuk	익산시	expected=28	actual=56	/region/jeonbuk/iksan/
+gyeonggi	안성시	expected=13	actual=26	/region/gyeonggi/anseong/
+gyeonggi	평택시	expected=23	actual=46	/region/gyeonggi/pyeongtaek/
+gyeongbuk	김천시	expected=22	actual=44	/region/gyeongbuk/gimcheon/
+gyeongbuk	경주시	expected=22	actual=44	/region/gyeongbuk/gyeongju/
+gyeongbuk	경산시	expected=14	actual=28	/region/gyeongbuk/gyeongsan/
+daegu	수성구	expected=11	actual=22	/region/daegu/suseong-gu/
+daegu	남구	expected=3	actual=6	/region/daegu/nam-gu/
+daegu	북구	expected=16	actual=32	/region/daegu/buk-gu/
+daegu	서구	expected=5	actual=10	/region/daegu/seo-gu/
+gyeongnam	창원시 의창구	expected=7	actual=14	/region/gyeongnam/changwon-uichang-gu/
+gyeongbuk	구미시	expected=23	actual=46	/region/gyeongbuk/gumi/
+daegu	중구	expected=6	actual=14	/region/daegu/jung-gu/
+daegu	동구	expected=12	actual=24	/region/daegu/dong-gu/
+daegu	달서구	expected=16	actual=30	/region/daegu/dalseo-gu/
+ulsan	북구	expected=6	actual=12	/region/ulsan/buk-gu/
+ulsan	남구	expected=10	actual=20	/region/ulsan/nam-gu/
+ulsan	동구	expected=6	actual=12	/region/ulsan/dong-gu/
+ulsan	중구	expected=10	actual=20	/region/ulsan/jung-gu/
+ulsan	울주군	expected=12	actual=24	/region/ulsan/ulju/
+gyeongnam	양산시	expected=13	actual=26	/region/gyeongnam/yangsan/
+busan	부산진구	expected=10	actual=20	/region/busan/jin-gu/
+busan	동래구	expected=7	actual=14	/region/busan/dongrae-gu/
+busan	연제구	expected=2	actual=4	/region/busan/yeonje-gu/
+busan	사상구	expected=8	actual=16	/region/busan/sasang-gu/
+busan	수영구	expected=5	actual=10	/region/busan/suyeong-gu/
+busan	남구	expected=6	actual=12	/region/busan/nam-gu/
+busan	사하구	expected=8	actual=16	/region/busan/saha-gu/
+busan	서구	expected=8	actual=16	/region/busan/seo-gu/
+busan	동구	expected=4	actual=8	/region/busan/dong-gu/
+busan	북구	expected=5	actual=10	/region/busan/buk-gu/
+busan	금정구	expected=9	actual=18	/region/busan/geumjeong-gu/
+busan	기장군	expected=5	actual=10	/region/busan/gijang/
+busan	해운대구	expected=7	actual=14	/region/busan/haeundae-gu/
+busan	영도구	expected=6	actual=12	/region/busan/yeongdo-gu/
+busan	강서구	expected=7	actual=12	/region/busan/gangseo-gu/
+busan	중구	expected=8	actual=16	/region/busan/jung-gu/
+gyeongnam	김해시	expected=17	actual=34	/region/gyeongnam/gimhae/
+gyeongnam	창원시 성산구	expected=8	actual=16	/region/gyeongnam/changwon-seongsan-gu/
+gyeongnam	창원시 마산합포구	expected=15	actual=30	/region/gyeongnam/changwon-masanhappo-gu/
+gyeongnam	창원시 마산회원구	expected=8	actual=16	/region/gyeongnam/changwon-masanhoewon-gu/
+gyeongnam	창원시 진해구	expected=12	actual=24	/region/gyeongnam/changwon-jinhae-gu/
+gyeonggi	오산시	expected=6	actual=12	/region/gyeonggi/osan/
+gyeonggi	이천시	expected=14	actual=28	/region/gyeonggi/icheon/
+gyeonggi	화성시	expected=20	actual=12	/region/gyeonggi/hwaseong/
+chungbuk	음성군	expected=10	actual=18	/region/chungbuk/eumseong/
+seoul	강남구	expected=13	actual=26	/region/seoul/gangnam-gu/
+seoul	강동구	expected=9	actual=18	/region/seoul/gangdong-gu/
+seoul	강북구	expected=9	actual=18	/region/seoul/gangbuk-gu/
+seoul	강서구	expected=9	actual=18	/region/seoul/gangseo-gu/
+seoul	관악구	expected=21	actual=42	/region/seoul/gwanak-gu/
+seoul	광진구	expected=7	actual=14	/region/seoul/gwangjin-gu/
+seoul	구로구	expected=8	actual=16	/region/seoul/guro-gu/
+seoul	금천구	expected=3	actual=6	/region/seoul/geumcheon-gu/
+seoul	노원구	expected=6	actual=12	/region/seoul/nowon-gu/
+seoul	도봉구	expected=4	actual=8	/region/seoul/dobong-gu/
+seoul	동대문구	expected=10	actual=18	/region/seoul/dongdaemun-gu/
+seoul	동작구	expected=6	actual=12	/region/seoul/dongjak-gu/
+seoul	마포구	expected=14	actual=28	/region/seoul/mapo-gu/
+seoul	서대문구	expected=9	actual=18	/region/seoul/seodaemun-gu/
+seoul	서초구	expected=8	actual=16	/region/seoul/seocho-gu/
+seoul	성동구	expected=12	actual=34	/region/seoul/seongdong-gu/
+seoul	성북구	expected=12	actual=24	/region/seoul/seongbuk-gu/
+seoul	송파구	expected=16	actual=32	/region/seoul/songpa-gu/
+seoul	양천구	expected=3	actual=6	/region/seoul/yangcheon-gu/
+seoul	영등포구	expected=9	actual=18	/region/seoul/yeongdeungpo-gu/
+seoul	용산구	expected=13	actual=28	/region/seoul/yongsan-gu/
+seoul	은평구	expected=11	actual=22	/region/seoul/eunpyeong-gu/
+seoul	종로구	expected=13	actual=32	/region/seoul/jongro-gu/
+seoul	중구	expected=14	actual=28	/region/seoul/jung-gu/
+seoul	중랑구	expected=8	actual=16	/region/seoul/jungrang-gu/
+gyeonggi	남양주시	expected=15	actual=30	/region/gyeonggi/namyangju/
+gyeonggi	하남시	expected=9	actual=20	/region/gyeonggi/hanam/
+gyeonggi	구리시	expected=5	actual=10	/region/gyeonggi/guri/
+gyeonggi	성남시 분당구	expected=12	actual=24	/region/gyeonggi/seongnam-bundang-gu/
+gyeonggi	성남시 수정구	expected=11	actual=22	/region/gyeonggi/seongnam-sujeong-gu/
+gyeonggi	성남시 중원구	expected=7	actual=14	/region/gyeonggi/seongnam-jungwon-gu/
+gyeonggi	고양시 일산서구	expected=7	actual=14	/region/gyeonggi/goyang-ilsanseo-gu/
+gyeonggi	고양시 덕양구	expected=15	actual=30	/region/gyeonggi/goyang-deokyang-gu/
+gyeonggi	고양시 일산동구	expected=8	actual=16	/region/gyeonggi/goyang-ilsandong-gu/
+gyeonggi	의정부시	expected=10	actual=18	/region/gyeonggi/uijeongbu/
+gyeonggi	과천시	expected=7	actual=12	/region/gyeonggi/gwacheon/
+gyeonggi	안양시 동안구	expected=13	actual=26	/region/gyeonggi/anyang-dongan-gu/
+gyeonggi	양주시	expected=8	actual=16	/region/gyeonggi/yangju/
+gyeonggi	의왕시	expected=5	actual=10	/region/gyeonggi/uiwang/
+gyeonggi	용인시 수지구	expected=6	actual=12	/region/gyeonggi/yongin-suji-gu/
+gyeonggi	광명시	expected=6	actual=12	/region/gyeonggi/gwangmyeong/
+gyeonggi	용인시 기흥구	expected=12	actual=24	/region/gyeonggi/yongin-giheung-gu/
+incheon	부평구	expected=8	actual=16	/region/incheon/bupyeong-gu/
+incheon	계양구	expected=5	actual=10	/region/incheon/gyeyang-gu/
+gyeonggi	수원시 팔달구	expected=8	actual=16	/region/gyeonggi/suwon-paldal-gu/
+gyeongbuk	울릉군	expected=3	actual=6	/region/gyeongbuk/ulleung/
+gyeonggi	안양시 만안구	expected=7	actual=6	/region/gyeonggi/anyang-manan-gu/
+gyeonggi	김포시	expected=14	actual=26	/region/gyeonggi/gimpo/
+chungnam	계룡시	expected=4	actual=8	/region/chungnam/gyeryong/
+gyeonggi	광주시	expected=14	actual=26	/region/gyeonggi/gwangju/
+gyeonggi	양평군	expected=12	actual=24	/region/gyeonggi/yangpyeong/
+gyeonggi	파주시	expected=13	actual=26	/region/gyeonggi/paju/
+gyeonggi	포천시	expected=14	actual=28	/region/gyeonggi/pocheon/
+gyeonggi	동두천시	expected=7	actual=14	/region/gyeonggi/dongducheon/
+gyeonggi	용인시 처인구	expected=12	actual=22	/region/gyeonggi/yongin-cheoin-gu/
+gyeonggi	수원시 권선구	expected=9	actual=18	/region/gyeonggi/suwon-gwonseon-gu/
+gyeonggi	수원시 영통구	expected=5	actual=10	/region/gyeonggi/suwon-yeongtong-gu/
+gyeonggi	군포시	expected=10	actual=20	/region/gyeonggi/gunpo/
+chungbuk	보은군	expected=11	actual=22	/region/chungbuk/boeun/
+chungbuk	옥천군	expected=9	actual=18	/region/chungbuk/okcheon/
+chungbuk	영동군	expected=11	actual=22	/region/chungbuk/yeongdong/
+gwangju	광산구	expected=18	actual=34	/region/gwangju/gwangsan-gu/
+gwangju	동구	expected=9	actual=18	/region/gwangju/dong-gu/
+gwangju	남구	expected=11	actual=20	/region/gwangju/nam-gu/
+gwangju	서구	expected=11	actual=24	/region/gwangju/seo-gu/
+gwangju	북구	expected=20	actual=38	/region/gwangju/buk-gu/
+jeonnam	강진군	expected=11	actual=22	/region/jeonnam/gangjin/
+jeonnam	곡성군	expected=11	actual=22	/region/jeonnam/gokseong/
+jeonnam	구례군	expected=8	actual=16	/region/jeonnam/gurye/
+jeonnam	나주시	expected=20	actual=40	/region/jeonnam/naju/
+jeonnam	담양군	expected=12	actual=24	/region/jeonnam/damyang/
+jeonnam	목포시	expected=22	actual=44	/region/jeonnam/mokpo/
+jeonnam	보성군	expected=12	actual=24	/region/jeonnam/boseong/
+jeonnam	순천시	expected=23	actual=46	/region/jeonnam/suncheon/
+jeonnam	영광군	expected=11	actual=22	/region/jeonnam/yeonggwang/
+jeonnam	영암군	expected=11	actual=22	/region/jeonnam/yeongam/
+jeonnam	장성군	expected=11	actual=22	/region/jeonnam/jangseong/
+jeonnam	함평군	expected=9	actual=18	/region/jeonnam/hampyeong/
+jeonnam	화순군	expected=13	actual=26	/region/jeonnam/hwasun/
+jeonbuk	고창군	expected=14	actual=28	/region/jeonbuk/gochang/
+jeonnam	무안군	expected=9	actual=18	/region/jeonnam/muan/
+incheon	남동구	expected=8	actual=16	/region/incheon/namdong-gu/
+incheon	미추홀구	expected=7	actual=14	/region/incheon/michuhol-gu/
+incheon	연수구	expected=6	actual=12	/region/incheon/yeonsu-gu/
+gyeonggi	시흥시	expected=16	actual=30	/region/gyeonggi/siheung/
+gyeonggi	안산시 단원구	expected=10	actual=20	/region/gyeonggi/ansan-danwon-gu/
+gyeonggi	안산시 상록구	expected=11	actual=22	/region/gyeonggi/ansan-sangrok-gu/
+chungnam	태안군	expected=8	actual=16	/region/chungnam/taean/
+chungnam	서산시	expected=14	actual=28	/region/chungnam/seosan/
+chungnam	당진시	expected=12	actual=24	/region/chungnam/dangjin/
+gyeonggi	수원시 장안구	expected=7	actual=14	/region/gyeonggi/suwon-jangan-gu/
+jeonbuk	김제시	expected=19	actual=38	/region/jeonbuk/gimje/
+jeonbuk	남원시	expected=23	actual=46	/region/jeonbuk/namwon/
+jeonbuk	정읍시	expected=23	actual=46	/region/jeonbuk/jeongeup/
+jeonbuk	순창군	expected=11	actual=22	/region/jeonbuk/sunchang/
+jeonbuk	진안군	expected=11	actual=22	/region/jeonbuk/jinan/
+jeonbuk	무주군	expected=6	actual=12	/region/jeonbuk/muju/
+jeonbuk	부안군	expected=13	actual=26	/region/jeonbuk/buan/
+jeonbuk	장수군	expected=7	actual=14	/region/jeonbuk/jangsu/
+jeonbuk	임실군	expected=12	actual=24	/region/jeonbuk/imsil/
+daegu	달성군	expected=9	actual=18	/region/daegu/dalseong/
+gyeongnam	합천군	expected=17	actual=34	/region/gyeongnam/hapcheon/
+gyeonggi	연천군	expected=10	actual=20	/region/gyeonggi/yeoncheon/
+incheon	강화군	expected=13	actual=26	/region/incheon/ganghwa/
+gyeonggi	가평군	expected=6	actual=12	/region/gyeonggi/gapyeong/
+jeju	제주시	expected=22	actual=44	/region/jeju/jeju/
+jeju	서귀포시	expected=17	actual=34	/region/jeju/seogwipo/

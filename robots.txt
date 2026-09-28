@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /dia/
 Allow: /
 
 Sitemap: https://tsposys.com/sitemap.xml

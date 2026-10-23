@@ -403,3 +403,8 @@ details p{margin-top:10px;font-size:15px}
     justify-self:end;
   }
 }
+
+/* Shared guide layout for regional consultation pages. */
+.region-service-hero .hero-grid{grid-template-columns:minmax(0,1fr);align-items:start}
+.local-service-guides{display:grid;gap:20px;width:min(100%,858px);margin:0 auto}
+.local-service-guides img{display:block;width:100%;height:auto}
